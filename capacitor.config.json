@@ -1,0 +1,6 @@
+{
+  "appId": "com.test.ionicselectbug",
+  "appName": "ion-select-bug",
+  "bundledWebRuntime": false,
+  "webDir": "www"
+}
