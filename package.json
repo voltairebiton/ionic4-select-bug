@@ -6,8 +6,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
+    "build": "npm install && ng run app:build && npx cap sync && npm run pod_install && npx cap open ios",
+    "pod_install": "pod install --project-directory=ios/app",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
